@@ -1,6 +1,7 @@
 function Input({
   label,
   id,
+  name,
   type = 'text',
   placeholder = '',
   value,
@@ -22,6 +23,7 @@ function Input({
 
       <input
         id={id}
+        name={name}
         type={type}
         placeholder={placeholder}
         value={value}
